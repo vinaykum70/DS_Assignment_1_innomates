@@ -11,7 +11,7 @@ PARENT_DIR = os.path.join(FILE_DIR, os.pardir)
 # absolute path of directory_of_interest
 dir_of_interest = os.path.join(PARENT_DIR, "resources")
 
-IMAGE_PATH = os.path.join(dir_of_interest, "images", "wall.jpg")
+IMAGE_PATH = os.path.join(dir_of_interest, "images", "wall1.jpg")
 DATA_PATH = os.path.join(dir_of_interest, "data", "wallmart.csv")
 
 st.title("Dashboard - Wallmart Data")
