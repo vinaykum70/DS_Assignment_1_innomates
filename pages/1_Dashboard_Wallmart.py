@@ -22,6 +22,7 @@ st.image(img)
 df = pd.read_csv(DATA_PATH)
 st.dataframe(df)
 
+
 state = st.selectbox("Select the State:", df['State'].unique())
 
 
