@@ -1,7 +1,6 @@
 import streamlit as st
 
 
-
 st.title(':red[Welcome !]')
 
 st.header('Innomates Data Science Internship 2023 !')
@@ -15,7 +14,6 @@ if(st.button('Click Me !')==True):
     st.subheader('You clicked me :sunglasses:')
     st.balloons()
 
-st.image('resources\images\AI.jpg')
-
+st.image("ai.jpeg")
 
 
